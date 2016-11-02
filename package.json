@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@192.168.0.77:fhan/frontEnd.git"
+    "url": "git@github.com:fatzhou/gulp-scaffold.git"
   },
   "author": "",
   "license": "ISC"
