@@ -7,11 +7,11 @@
 本项目使用git进行版本管理，代码托管到github。请访问[git官网](https://git-scm.com/downloads)下载对应操作系统的git客户端。此外，还需要访问[github首页](https://github.com)来注册github账户，以进行代码提交。
 
 ###下载代码
-本项目github地址是[https://github.com/fatzhou/index-page](https://github.com/fatzhou/index-page),github项目首页是[https://fatzhou.github.io/index-page/index.html](https://fatzhou.github.io/index-page/index.html).
+本项目github地址是[https://github.com/fatzhou/gulp-scaffold](https://github.com/fatzhou/gulp-scaffold),github项目首页是[https://fatzhou.github.io/gulp-scaffold/index.html](https://fatzhou.github.io/gulp-scaffold/index.html).
 
 在git客户端中运行以下命令来下载代码：
 
-	git clone git@github.com:fatzhou/index-page.git
+	git clone git@github.com:fatzhou/gulp-scaffold.git
 	
 git会在当前目录下创建main-page文件夹，并下载代码到本地。
 
@@ -63,7 +63,7 @@ npm会自动下载依赖包到node_modules文件夹下。此时可以启动webse
 
 	npm start
 	
-在浏览器上输入"http://localhost:8080"，即可看到服务器已成功架设，直接修改src下js或者css信息，在浏览器上会即时刷新。关于webpack的进一步了解，可以参考[webpack github](http://webpack.github.io/).
+脚本会自动启动浏览器，并打开url：http://localhost:8000/。如果需要更换浏览器，将url复制到其他浏览器打开即可。由于设置了监听，直接修改src下html,js或者css文件，在浏览器上会自动即时刷新.
 
 ##如何开发
 项目样式采用less预处理语言，关于less的学习可以访问[http://lesscss.cn/](http://lesscss.cn/)。直接使用原声css也可以兼容。
